@@ -1,0 +1,33 @@
+body{
+    padding-top: 75px;
+}
+
+
+.btn-outline-pink {
+    color: #be4a8e;
+    background-color: transparent;
+    background-image: none;
+    border-color: #be4a8e;
+}
+
+.btn-outline-pink:hover, .btn-pink {
+    color: #fff;
+    background-color: #be4a8e;
+}
+
+.box-shadow{
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05),
+                0 4px 8px 0 rgba(0, 0, 0, 0.05);
+}
+
+.bg-pink-light{
+    background-color: #b685a2;
+}
+
+.text-pink{
+    color: #be4a8e;
+}
+
+.icone{
+    height: 100px;
+}
