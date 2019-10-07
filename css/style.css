@@ -2,7 +2,7 @@ body{
     padding-top: 75px;
 }
 
-.btn-pink{
+.btn-pink, .bg-pink{
     background-color: #be4a8e;
     color: #fff;
 }
@@ -37,6 +37,10 @@ body{
     color: #be4a8e;
 }
 
+.text-pink:hover{
+    color: #d18fb8;
+}
+
 .icone{
     height: 100px;
 }
@@ -44,6 +48,10 @@ body{
 #home-quote{
     background: url('../img/bg-quote.jpg') center center;
     background-size: cover;
+}
+
+.medias{
+    max-width: 140px;
 }
 
 @media (max-width: 767px){
