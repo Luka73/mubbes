@@ -2,6 +2,15 @@ body{
     padding-top: 75px;
 }
 
+.btn-pink{
+    background-color: #be4a8e;
+    color: #fff;
+}
+
+.btn-pink:hover{
+    background-color: #e23299;
+    color: #fff;
+}
 
 .btn-outline-pink {
     color: #be4a8e;
