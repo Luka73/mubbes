@@ -1,0 +1,56 @@
+/*colors*/
+$pink: #be4a8e;
+$pink-light: #b685a2;
+$pink-dark: #e23299;
+$pink-hover: #d18fb8;
+$white: #fff;
+$li: rgba(182, 133, 162, 0.4);
+$shadow: rgba(0, 0, 0, 0.05);
+
+body{ padding-top: 75px; }
+
+#home-quote{
+    background: url('../img/bg-quote.jpg') center center;
+    background-size: cover;
+}
+
+.btn-pink, .bg-pink, .badge-pink, .btn-outline-pink:hover {
+    background-color: $pink;
+    color: $white !important;
+}
+
+.btn-outline-pink {
+    color: $pink;
+    background-color: transparent;
+    background-image: none;
+    border-color: $pink;
+}
+
+.box-shadow {
+    box-shadow: 0 2px 4px 0 $shadow,
+                0 4px 8px 0 $shadow;
+}
+
+.text-pink{
+    color: $pink;
+    &:hover {
+        color: $pink-hover;
+    }
+}
+
+.li-plano li{
+    border-bottom: 1px solid $li;
+    padding: 1em;
+}
+
+.btn-pink:hover{ background-color: $pink-dark; }
+.bg-pink-light { background-color: $pink-light; }
+.icone{ height: 100px; }
+.medias{ max-width: 140px; }
+.li-plano li:last-child{ border: none; }
+
+@media (max-width: 767px){
+    body{ padding: 0; }
+    #home-quote .display-4{ font-size: 2.5rem; }
+    .fixed-top{ position: relative; }
+}

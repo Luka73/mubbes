@@ -1,0 +1,140 @@
+<section class="container">
+    <div class="my-5 text-center">
+        <span class="h6 d-block">PROGRAME A VIAGEM DO SEU SONHO</span>
+        <h2 class="display-4 text-pink">INSCREVA-SE</h2>
+    </div>
+    <div class="row">
+      <form class="col-md-6">
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="nome">Nome</label>
+            <input type="text" class="form-control" id="nome" placeholder="Nome completo">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="cpf">CPF</label>
+            <input type="text" class="form-control" id="cpf" placeholder="xxx.xxx.xxx-xx">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="exemplo@gmail.com">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="senha">Senha</label>
+            <input type="password" class="form-control" id="senha" placeholder="Senha de Acesso">
+          </div>
+          <div class="form-group col-12">
+            <label for="endereco">Endereço</label>
+            <input type="text" class="form-control" id="endereco" placeholder="Número, nome da rua e bairro.">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="cidade">Cidade</label>
+            <input type="text" class="form-control" id="cidade">
+          </div>
+          <div class="form-group col-md-3">
+            <label for="estado">Estado</label>
+            <select id="estado" class="form-control">
+                <option disabled selected> - Selecione - </option>
+                <option>Rio de Janeiro</option>
+                <option>São Paulo</option>
+                <option>Paraná</option>
+                <option>Bahia</option>
+            </select>
+          </div>
+          <div class="form-group col-md-3">
+            <label for="cep">CEP</label>
+            <input type="text" class="form-control" id="cep" placeholder="xxxx-xxx">
+          </div>
+        </div>
+        <div class="bg-light rounded box-shadow p-3 form-group">
+            <h2 class="h6 text-pink">FORMA DE PAGAMENTO</h2>
+            <nav class="nav btn-group" id="forma-pagto" role="tablist">
+                <button type="button" class="btn btn-pink btn-sm active" id="nav-cartao-tab" 
+                data-toggle="tab" href="#nav-cartao" role="tab" aria-controls="nav-cartao" 
+                aria-selected="true">Cartão de Crédito</button>
+                <button type="button" class="btn btn-pink btn-sm" id="nav-boleto-tab" 
+                data-toggle="tab" href="#nav-boleto" role="tab" aria-controls="nav-boleto" 
+                aria-selected="true">Boleto Bancário</button>
+            </nav>
+            <div class="tab-content" id="forma-pagto">
+                <div class="tab-pane fade show active" id="nav-cartao" role="tabpanel" aria-labelledby="nav-cartao-tab">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="nome-cartao">Nome no Cartão</label>
+                            <input type="text" class="form-control" id="nome-cartao" placeholder="Nome impresso no cartão">
+                        </div>
+                        <div class="form-group col-md-3 col-6">
+                            <label for="mes">Mês</label>
+                            <select id="mes" class="form-control">
+                                <option disabled selected> - Expira em... - </option>
+                                <option>01</option>
+                                <option>02</option>
+                                <option>03</option>
+                                <option>04</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-3 col-6">
+                            <label for="ano">Ano</label>
+                            <select id="ano" class="form-control">
+                                <option disabled selected> - Expira em... - </option>
+                                <option>2020</option>
+                                <option>2021</option>
+                                <option>2022</option>
+                                <option>2023</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="numero-cartao">Número do Cartão</label>
+                            <input type="text" class="form-control" id="numero-cartao" placeholder="5555 5555 5555 5555">    
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="cvv">CVV</label>
+                            <input type="text" class="form-control" id="cvv" placeholder="xxx">    
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade show active" id="nav-boleto" role="tabpanel" aria-labelledby="nav-boleto-tab">
+                    <p class="lead">Clique em contratar plano que enviaremos um boleto para o seu e-mail.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-check mb-2">
+            <label class="form-check-label">
+                <input type="checkbox" class="form-check-input">
+                Concordo com os <a href="#">Termos e Condições</a>.
+            </label>
+        </div>
+        <button type="submit" class="btn btn-pink btn-lg">Contratar Plano</button>
+      </form>
+      <div class="col-lg-5 mx-auto order-first order-lg-1 mb-5">
+          <h2 class="text-pink">PLANO ESCOLHIDO</h2>
+        <div class="bg-light rounded p-4 box-shadow">
+            <h2>Gold</h2>
+            <ul class="list-unstyled li-plano">
+                <li> -> 30 dias de viagem</li>
+                <li> -> 3 destinos diferentes</li>
+                <li> -> Tudo pago pela empresa</li>
+                <li> -> Ingressos para festas</li>
+            </ul>
+            <form>
+                <div class="form-group">
+                    <select class="form-control ng-light" id="cidades">
+                        <option>Selecione a cidade</option>
+                        <option>Califórnia</option>
+                        <option>Paris</option>
+                        <option>Dublin</option>
+                    </select>
+                </div>
+            </form>
+            <div class="row mt-4">
+                <div class="col">
+                    <span class="h4">R$5.000</span>
+                </div>
+                <div class="col">
+                    <a href="inscricao.php" class="btn btn-pink btn-lg btn-block">Comprar Plano</a>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+</section>
