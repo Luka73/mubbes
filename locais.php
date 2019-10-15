@@ -29,55 +29,8 @@
             </div>
         </div>
     </section>
-   
-    <section class="container">
-        <div class="my-5 text-center">
-            <span class="h6 d-block">DESCUBRA O QUE ACONTECE NA CIDADE</span>
-            <h1 class="display-4 text-pink">Próximos Eventos</h1>
-        </div>
-        <table class="table table-hover table-responsive-md">
-            <thead>
-                <tr>
-                    <th scope="col">Data</th>
-                    <th scope="col">Evento</th>
-                    <th scope="col">Local</th>
-                    <th scope="col">Ticket</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th scope="row">23/10</th>
-                    <td>Julien Baker</td>
-                    <td>The Academy</td>
-                    <td><a href="#" class="btn btn-outline-pink btn-sm">Comprar Ticket</a></td>
-                </tr>
-                <tr>
-                    <th scope="row">23/10</th>
-                    <td>Julien Baker</td>
-                    <td>The Academy</td>
-                    <td><a href="#" class="btn btn-outline-pink btn-sm">Comprar Ticket</a></td>
-                </tr>
-                <tr>
-                    <th scope="row">23/10</th>
-                    <td>Julien Baker</td>
-                    <td>The Academy</td>
-                    <td><a href="#" class="btn btn-outline-pink btn-sm">Comprar Ticket</a></td>
-                </tr>
-                <tr>
-                    <th scope="row">23/10</th>
-                    <td>Julien Baker</td>
-                    <td>The Academy</td>
-                    <td><a href="#" class="btn btn-outline-pink btn-sm">Comprar Ticket</a></td>
-                </tr>
-                <tr>
-                    <th scope="row">23/10</th>
-                    <td>Julien Baker</td>
-                    <td>The Academy</td>
-                    <td><a href="#" class="btn btn-outline-pink btn-sm">Comprar Ticket</a></td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
+
+    <?php include 'moleculas/eventos.html' ?>
 
     <?php include 'moleculas/footer.html' ?>
     

@@ -7,73 +7,8 @@
     <?php include 'moleculas/modal.html' ?>
 
     <?php include 'moleculas/navbar.html' ?>
-     
-    <section class="container">
-        <div class="my-5 text-center">
-            <span class="h6 d-block">SEU PLANO, SUA VIAGEM</span>
-            <h1 class="display-4 text-pink">Escolha o Plano</h1>
-        </div>
-        <div class="row">
-            <div class="col-md mb-5">
-                <div class="bg-light rounded p-4 box-shadow">
-                    <h2>Gold</h2>
-                    <ul class="list-unstyled li-plano">
-                        <li><span data-toggle="tooltip" data-placement="right" title="Isso mesmo! São 30 dias totais durante a viagem.!"> -> 30 dias de viagem</span></li>
-                        <li> -> 3 destinos diferentes</li>
-                        <li> -> Tudo pago pela empresa</li>
-                        <li> -> Ingressos para festas</li>
-                    </ul>
-                    <form>
-                        <div class="form-group">
-                            <select class="form-control ng-light" id="cidades">
-                                <option>Selecione a cidade</option>
-                                <option>Califórnia</option>
-                                <option>Paris</option>
-                                <option>Dublin</option>
-                            </select>
-                        </div>
-                    </form>
-                    <div class="row mt-4 align-items-center">
-                        <div class="col">
-                            <span class="h4">R$5.000</span>
-                        </div>
-                        <div class="col">
-                            <a href="inscricao.html" class="btn btn-pink btn-lg btn-block">Comprar Plano</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md mb-5">
-                <div class="bg-light rounded p-4 box-shadow">
-                    <h2>Platinum <span class="badge badge-pink">Novo</span></h2>
-                    <ul class="list-unstyled li-plano">
-                        <li> -> 60 dias de viagem</li>
-                        <li> -> 6 destinos diferentes</li>
-                        <li> -> Tudo pago pela empresa</li>
-                        <li> -> Ingressos para festas</li>
-                    </ul>
-                    <form>
-                        <div class="form-group">
-                            <select class="form-control ng-light" id="cidades">
-                                <option>Selecione a cidade</option>
-                                <option>Califórnia</option>
-                                <option>Paris</option>
-                                <option>Dublin</option>
-                            </select>
-                        </div>
-                    </form>
-                    <div class="row mt-4 align-items-center">
-                        <div class="col">
-                            <span class="h4">R$7.500</span>
-                        </div>
-                        <div class="col">
-                            <a href="inscricao.php" class="btn btn-pink btn-lg btn-block">Comprar Plano</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+
+    <?php include 'moleculas/planos.html' ?>
 
     <?php include 'moleculas/footer.html' ?>
    

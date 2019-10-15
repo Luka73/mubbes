@@ -19,11 +19,16 @@ body{ padding-top: 75px; }
     color: $white !important;
 }
 
-.btn-outline-pink {
+.btn-outline-pink, .btn-pagto {
     color: $pink;
     background-color: transparent;
     background-image: none;
     border-color: $pink;
+}
+
+.btn-pagto-active {
+    background-color: $pink;
+    color: $white !important;
 }
 
 .box-shadow {
@@ -31,18 +36,13 @@ body{ padding-top: 75px; }
                 0 4px 8px 0 $shadow;
 }
 
-.text-pink{
-    color: $pink;
-    &:hover {
-        color: $pink-hover;
-    }
-}
-
 .li-plano li{
     border-bottom: 1px solid $li;
     padding: 1em;
 }
 
+a.text-pink:hover { color: $pink-hover; }
+.text-pink{ color: $pink; }
 .btn-pink:hover{ background-color: $pink-dark; }
 .bg-pink-light { background-color: $pink-light; }
 .icone{ height: 100px; }

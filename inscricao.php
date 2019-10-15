@@ -15,5 +15,6 @@
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
     <?php include 'moleculas/scripts.html' ?>
+    <script src="js/app.js"></script>
   </body>
 </html>
